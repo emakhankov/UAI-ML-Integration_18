@@ -41,7 +41,7 @@ def index():
         #print(x)
 
         y = model.predict(x)
-        print(y)
+        #print(y)
         y = np.argmax(y)
 
         return render_template('result.html', y=y)
